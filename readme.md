@@ -32,11 +32,11 @@ Steps for setup microservice:
   - uvicorn main:app --reload --port 8000
 - command to run microservice-B in local:
   - uvicorn main:app --reload --port 8001
-Access docs URL:
+-Access docs URL:
   -  http://localhost:8000/docs
   -  http://localhost:8001/docs
 - Endpoints:
   - From Microservice-B call Microservice-A endpoints
-    - /api/v1/users/register - Insert User in DB
+    - /api/v1/users/register - Insert user details in DB
     - /api/v1/users/login - Generate the access token
     - /api/v1/users/listing - Fetch the user listing
